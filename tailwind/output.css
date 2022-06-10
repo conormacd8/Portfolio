@@ -976,3 +976,9 @@ video {
     font-weight: 400;
   }
 }
+
+@media (min-width: 1280px){
+  .xl\:w-full{
+    width: 100%;
+  }
+}
