@@ -13,7 +13,7 @@
     ></script>
     <title>Conor MacDonald Portfolio</title>
   </head>
-  <body class="text-white bg-primary text-lg">
+  <body class="text-white bg-primary text-lg font-body">
     <div class="hidden">
       <div>
         <span> Conor </span>
@@ -29,10 +29,10 @@
       <span id="hamburger" class="hamburger"></span>
     </button>
     <div
-      class="fixed sm:static top-0 right-0 bottom-0 left-0 z-40 translate-x-full sm:translate-x-0 transition-transform duration-300 h-full text-5xl font-bold bg-secondary-300 text-center sm:container sm:max-w-7xl sm:py-10 sm:text-lg sm:font-normal sm:h-auto nav-container sm:bg-transparent sm:mx-auto"
+      class="fixed sm:static top-0 right-0 bottom-0 left-0 z-40 translate-x-full sm:translate-x-0 transition-transform duration-300 h-full text-5xl font-bold bg-secondary-300 text-center sm:container sm:max-w-7xl sm:py-10 sm:text-base sm:font-normal sm:h-auto nav-container sm:bg-transparent sm:mx-auto md:text-lg"
     >
       <header
-        class="flex sm:w-11/12 xl:w-full sm:mx-auto justify-between items-center flex-col h-full sm:h-auto sm:flex-row"
+        class="flex sm:w-11/12 2xl:w-full sm:mx-auto justify-between items-center flex-col h-full sm:h-auto sm:flex-row"
       >
         <nav class="sm:w-10/12 h-full sm:h-auto">
           <ul
@@ -57,7 +57,7 @@
             <li>
               <a
                 href="#contact"
-                class="nav-link px-4 py-2 text-secondary-300 bg-secondary-200 rounded-md font-bold"
+                class="nav-link px-3 py-1 text-secondary-300 bg-secondary-200 rounded-md font-bold"
                 >Résumé</a
               >
             </li>
@@ -74,11 +74,11 @@
       </header>
     </div>
     <!-- Hero section -->
-    <div class="container max-w-7xl">
-      <div class="w-11/12 mx-auto">
+    <div class="container max-w-7xl h-screen mx-auto">
+      <div class="w-11/12 mx-auto 2xl:w-full">
         <div>
-          <h1>
-            Hi, my <span>name is <strong>Conor</strong>.</span>
+          <h1 class="text-8xl">
+            Hi, my <span class="sm:block">name is <strong>Conor</strong>.</span>
           </h1>
           <p>I love building things on the web</p>
         </div>
@@ -94,14 +94,18 @@
             ></lottie-player>
           </a>
         </span>
-        <img src="./images/hero-illustration.svg" alt="" />
+        <img
+          src="./images/hero-illustration.svg"
+          alt=""
+          class="hidden sm:block"
+        />
       </div>
     </div>
     <!-- About me -->
     <div id="about-me">
-      <div>
-        <h2>About me</h2>
-        <div>
+      <div class="container max-w-7xl h-screen mx-auto">
+        <h2 class="text-center">About me</h2>
+        <div class="w-11/12 mx-auto 2xl:w-full">
           <div>
             <h3>Hobbies</h3>
             <p>
@@ -138,9 +142,9 @@
       </div>
     </div>
     <!-- Projects -->
-    <div id="projects">
-      <div>
-        <h2>Projects</h2>
+    <div id="projects" class="container max-w-7xl mx-auto">
+      <div class="w-11/12 mx-auto 2xl:w-full">
+        <h2 class="text-center">Projects</h2>
         <div>
           <img
             src="./images/pexels-thgusstavo-santana-1813272.jpg"
@@ -189,9 +193,9 @@
     </div>
     <!-- Skills -->
     <div>
-      <div>
-        <h2>Skills</h2>
-        <div>
+      <div class="container max-w-7xl mx-auto">
+        <h2 class="text-center">Skills</h2>
+        <div class="w-11/12 mx-auto 2xl:w-full">
           <div class="card">
             <img src="./images/w3_html5-icon.svg" alt="" />
             <p>HTML5</p>
@@ -233,10 +237,10 @@
     </div>
     <!-- Contact  -->
     <div id="contact">
-      <div>
-        <h2>Contact me</h2>
+      <div class="container max-w-7xl mx-auto">
+        <h2 class="text-center">Contact me</h2>
         <form
-          class="contact-form"
+          class="w-11/12 mx-auto 2xl:w-full"
           id="contact-form"
           action="https://formsubmit.co/conormacd8@gmail.com"
           method="POST"
@@ -261,7 +265,7 @@
           </div>
         </form>
         <div class="submit-container">
-          <button type="submit" form="contact-form" class="submit-btn">
+          <button type="submit" form="contact-form" class="w-full mx-auto">
             Submit
           </button>
         </div>
