@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <link rel="stylesheet" href="./tailwind/output.css" />
+    <script
+      src="https://kit.fontawesome.com/8ee2162ce3.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Conor MacDonald Portfolio</title>
+  </head>
+  <body class="text-white bg-primary text-lg">
+    <div class="hidden">
+      <div>
+        <span> Conor </span>
+        <span>&nbsp;MacDonald</span>
+      </div>
+    </div>
+    <!-- Header / navigation -->
+    <button
+      aria-label="toggle navigation"
+      id="nav-toggle"
+      class="nav-toggle z-50 absolute right-4 top-4 p-2 sm:hidden"
+    >
+      <span id="hamburger" class="hamburger"></span>
+    </button>
+    <div
+      class="fixed sm:static top-0 right-0 bottom-0 left-0 z-40 translate-x-full sm:translate-x-0 transition-transform duration-300 h-full text-5xl font-bold bg-secondary-300 text-center sm:container sm:max-w-7xl sm:py-10 sm:text-lg sm:font-normal sm:h-auto nav-container sm:bg-transparent sm:mx-auto"
+    >
+      <header
+        class="flex sm:w-11/12 sm:mx-auto justify-between items-center flex-col h-full sm:h-auto sm:flex-row"
+      >
+        <nav class="sm:w-10/12 h-full sm:h-auto">
+          <ul
+            class="flex h-full justify-evenly flex-col sm:flex-row sm:justify-between"
+          >
+            <li>
+              <a
+                href="#index.html"
+                class="text-secondary-200 font-bold nav-link"
+                >Conor MacDonald</a
+              >
+            </li>
+            <li>
+              <a href="#about-me" class="nav-link">About Me</a>
+            </li>
+            <li>
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li>
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+            <li>
+              <a href="#contact" class="nav-link">Resume</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="flex gap-3 text-4xl pb-2 sm:p-0 sm:text-2xl">
+          <a href="https://github.com/conormacd8" class="" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="www.linkedin.com/in/conormacd" class="" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </div>
+      </header>
+    </div>
+    <!-- Hero section -->
+    <div class="container max-w-7xl">
+      <div class="w-11/12 mx-auto">
+        <div>
+          <h1>
+            Hi, my <span>name is <strong>Conor</strong>.</span>
+          </h1>
+          <p>I love building things on the web</p>
+        </div>
+        <span>
+          <a href="#about-me">
+            <lottie-player
+              src="https://assets4.lottiefiles.com/packages/lf20_kyvmfawi.json"
+              background="transparent"
+              speed=".67"
+              style="width: 150px; height: 150px"
+              loop
+              autoplay
+            ></lottie-player>
+          </a>
+        </span>
+        <img src="./images/hero-illustration.svg" alt="" />
+      </div>
+    </div>
+    <!-- About me -->
+    <div id="about-me">
+      <div>
+        <h2>About me</h2>
+        <div>
+          <div>
+            <h3>Hobbies</h3>
+            <p>
+              I love learning new things all the time! I love exploring
+              different areas of life such as fitness, music, languages and of
+              course, <strong> front end web development</strong>. It fascinates
+              me how many things there are in the world that we simply will
+              never truly understand but that won’t stop me from trying to learn
+              something new every day!
+            </p>
+          </div>
+          <lottie-player
+            src="https://assets6.lottiefiles.com/packages/lf20_muyl0kpg.json"
+            background="transparent"
+            speed=".3"
+            style="width: 100px; height: 100px"
+            loop
+            autoplay
+            class="about-me-arrow"
+          >
+          </lottie-player>
+          <div>
+            <h3>My love for the web</h3>
+            <p>
+              When I started my web development journey, the web was one of
+              those things that I was always interested in but never really
+              understood. However, since then I’ve learned so much more than I
+              could have imagined and am eager to put my skills to use and prove
+              that I am a capable front end web developer in a professional
+              environment.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Projects -->
+    <div id="projects">
+      <div>
+        <h2>Projects</h2>
+        <div>
+          <img
+            src="./images/pexels-thgusstavo-santana-1813272.jpg"
+            alt="Photo of Cuts4all store/site"
+          />
+          <div>
+            <p>Javascript, Tailwind, UI design</p>
+            <h3>Hair Salon Freelancing Service</h3>
+            <a href="#">MORE INFO</a>
+          </div>
+        </div>
+        <div>
+          <img
+            src="./images/cjm.png"
+            alt="screenshot of Conor MacDonald's portfolio site"
+          />
+          <div>
+            <p>Javascript, Tailwind, UI design</p>
+            <h3>Personal Portfolio</h3>
+            <a href="#">MORE INFO</a>
+          </div>
+        </div>
+        <div>
+          <img
+            src="./images/colors-website.webp"
+            alt="Screenshot of colors home page"
+          />
+          <div>
+            <p>Javascript, Tailwind, UI design</p>
+            <h3>Color Scheme Generator</h3>
+            <a href="#">MORE INFO</a>
+          </div>
+        </div>
+        <div>
+          <img
+            src="./images/monkeytype.png"
+            alt="Photo of Typing site home page"
+          />
+          <div>
+            <p>Javascript, Tailwind, UI design</p>
+            <h3>Typing Practice</h3>
+            <a href="#">MORE INFO</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Skills -->
+    <div>
+      <div>
+        <h2>Skills</h2>
+        <div>
+          <div class="card">
+            <img src="./images/w3_html5-icon.svg" alt="" />
+            <p>HTML5</p>
+          </div>
+          <div class="card">
+            <img src="./images/w3_css-icon.svg" alt="" />
+            <p>CSS3</p>
+          </div>
+          <div class="card">
+            <img src="./images/js_logo.svg" alt="" />
+            <p>Javascript</p>
+          </div>
+          <div class="card">
+            <img src="./images/reactjs-icon.svg" alt="" />
+            <p>React</p>
+          </div>
+          <div class="card">
+            <img src="./images/tailwind-css-seeklogo.com.svg" alt="" />
+            <p>Tailwind</p>
+          </div>
+          <div class="card">
+            <img src="./images/git-scm-icon.svg" alt="" />
+            <p>Git</p>
+          </div>
+          <div class="card">
+            <img src="./images/github-logo.svg" alt="" />
+            <p>GitHub</p>
+          </div>
+          <div class="card">
+            <img src="./images/figma-logo.svg" alt="" />
+            <p>Figma</p>
+          </div>
+          <div class="card">
+            <img src="./images/js_webpack-icon.svg" alt="" />
+            <p>Webpack</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact  -->
+    <div id="contact">
+      <div>
+        <h2>Contact me</h2>
+        <form
+          class="contact-form"
+          id="contact-form"
+          action="https://formsubmit.co/conormacd8@gmail.com"
+          method="POST"
+        >
+          <input type="hidden" name="_captcha" value="false" />
+          <div class="full-name-container">
+            <label for="full-name">Full Name:</label>
+            <input
+              name="full-name"
+              type="text"
+              id="full-name"
+              class="full-name"
+            />
+          </div>
+          <div class="email-container">
+            <label for="email">Email:</label>
+            <input name="email" type="email" id="email" class="email" />
+          </div>
+          <div class="message-container">
+            <label for="message">Send me a message!</label>
+            <textarea name="message" id="message" class="message"></textarea>
+          </div>
+        </form>
+        <div class="submit-container">
+          <button type="submit" form="contact-form" class="submit-btn">
+            Submit
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
