@@ -26,5 +26,5 @@
 }
 
 .more-info{
-  @apply uppercase tracking-megawide text-sm font-medium pb-1 my-3 inline-block relative before:absolute before:block before:bottom-0 before:w-1/2 before:left-0 before:border-b before:border-secondary-100
+  @apply uppercase tracking-megawide text-sm font-medium pb-1 my-3 inline-block relative hover:scale-105 before:absolute before:block before:bottom-0 before:w-1/2 before:left-0 before:border-b before:border-secondary-100 before:hover:w-full before:transition-all transition-all before:duration-300 duration-300
 }
