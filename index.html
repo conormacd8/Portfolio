@@ -13,7 +13,7 @@
     ></script>
     <title>Conor MacDonald Portfolio</title>
   </head>
-  <body class="text-white bg-primary text-lg font-body">
+  <body class="text-blue-50 bg-primary text-lg font-body">
     <div class="hidden">
       <div>
         <span> Conor </span>
@@ -29,7 +29,7 @@
       <span id="hamburger" class="hamburger"></span>
     </button>
     <div
-      class="fixed sm:static top-0 right-0 bottom-0 left-0 z-40 translate-x-full sm:translate-x-0 transition-transform duration-300 h-full text-5xl font-bold bg-secondary-300 text-center sm:container sm:max-w-7xl sm:py-10 sm:text-base sm:font-normal sm:h-auto nav-container sm:bg-transparent sm:mx-auto md:text-lg"
+      class="fixed sm:static top-0 right-0 bottom-0 left-0 z-40 translate-x-full sm:translate-x-0 transition-transform duration-300 h-full text-5xl font-bold bg-secondary-300 text-center sm:container sm:max-w-7xl sm:pt-10 sm:text-base sm:font-normal sm:h-auto nav-container sm:bg-transparent sm:mx-auto md:text-lg"
     >
       <header
         class="flex sm:w-11/12 2xl:w-full sm:mx-auto justify-between items-center flex-col h-full sm:h-auto sm:flex-row"
@@ -38,26 +38,26 @@
           <ul
             class="flex h-full justify-evenly flex-col sm:flex-row sm:justify-between"
           >
-            <li>
+            <li class="cursor-pointer">
               <a
                 href="#index.html"
                 class="text-secondary-200 font-bold nav-link"
                 >Conor MacDonald</a
               >
             </li>
-            <li>
+            <li class="cursor-pointer">
               <a href="#about-me" class="nav-link">About Me</a>
             </li>
-            <li>
+            <li class="cursor-pointer">
               <a href="#projects" class="nav-link">Projects</a>
             </li>
-            <li>
+            <li class="cursor-pointer">
               <a href="#contact" class="nav-link">Contact</a>
             </li>
-            <li>
+            <li class="cursor-pointer">
               <a
                 href="#contact"
-                class="nav-link px-3 py-1 text-secondary-300 bg-secondary-200 rounded-md font-bold"
+                class="nav-link px-3 py-1 text-blue-800 bg-secondary-100 rounded-md font-bold"
                 >Résumé</a
               >
             </li>
@@ -75,17 +75,22 @@
     </div>
     <!-- Hero section -->
     <div
-      class="container max-w-7xl h-screen flex flex-col justify-center mx-auto relative sm:-mt-20"
+      class="container max-w-7xl h-screen flex flex-col justify-center mx-auto relative pb-10"
     >
       <div class="w-11/12 mx-auto 2xl:w-full sm:flex items-center">
         <div class="basis-3/5">
-          <h1 class="text-8xl leading-tight">
+          <h1
+            class="text-7xl leading-snug sm:text-8xl sm:leading-tight font-light"
+          >
             Hi, my
             <span class="lg:block"
-              >name is <strong class="xl:text-9xl">Conor</strong></span
+              >name is
+              <strong class="xl:text-9xl font-bold text-secondary-200"
+                >Conor</strong
+              ></span
             >
           </h1>
-          <p class="text-secondary-200 font-bold">
+          <p class="text-secondary-100 font-bold">
             I love building things on the web
           </p>
         </div>
@@ -111,18 +116,25 @@
     </div>
     <!-- About me -->
     <div id="about-me">
-      <div class="container max-w-7xl mx-auto">
-        <h2 class="text-center">About me</h2>
-        <div class="w-11/12 mx-auto 2xl:w-full">
-          <div>
-            <h3>Hobbies</h3>
-            <p>
-              I love learning new things all the time! I love exploring
-              different areas of life such as fitness, music, languages and of
-              course, <strong> front end web development</strong>. It fascinates
-              me how many things there are in the world that we simply will
-              never truly understand but that won’t stop me from trying to learn
-              something new every day!
+      <div class="container max-w-7xl mx-auto leading-loose">
+        <h2
+          class="text-center text-6xl font-medium border-b border-blue-300 border-opacity-20 py-10 tracking-wider"
+        >
+          About <span class="text-secondary-100">me</span>
+        </h2>
+        <div class="w-11/12 mx-auto 2xl:w-full mt-10">
+          <div class="p-6 bg-[#1e4d7a]">
+            <h3 class="text-lg sm:text-2xl font-semibold text-secondary-200">
+              Who I am
+            </h3>
+            <p class="tracking-wide pt-1">
+              I'm a life long learner and I love exploring different areas of
+              life such as fitness, music, languages and of course,
+              <span class="italic text-secondary-100">
+                front end web development</span
+              >. I find joy out of adding values to others and learning from
+              them along the way and simply aim to be a better version of myself
+              every single day.
             </p>
           </div>
           <lottie-player
@@ -132,18 +144,26 @@
             style="width: 100px; height: 100px"
             loop
             autoplay
-            class="about-me-arrow"
+            class="about-me-arrow hidden"
           >
           </lottie-player>
-          <div>
-            <h3>My love for the web</h3>
-            <p>
+          <div class="p-6 bg-[#1e4d7a] mt-6">
+            <h3 class="text-2xl font-semibold text-secondary-100">
+              My love for the web 🌐
+            </h3>
+            <p class="tracking-wide pt-1">
               When I started my web development journey, the web was one of
               those things that I was always interested in but never really
-              understood. However, since then I’ve learned so much more than I
-              could have imagined and am eager to put my skills to use and prove
-              that I am a capable front end web developer in a professional
-              environment.
+              understood. However, since then
+              <span class="italic text-secondary-200">
+                I’ve learned so much</span
+              >
+              and am eager to put my skills to use and prove that
+              <span class="italic text-secondary-100"
+                >I am a capable front end web developer</span
+              >
+              that will <span class="font-bold">add value</span> in a
+              professional environment.
             </p>
           </div>
         </div>
