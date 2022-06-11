@@ -15,6 +15,9 @@ module.exports = {
       fontFamily : {
         body: ['Montserrat','sans-serif']
       },
+      letterSpacing : {
+        megawide: '.3em'
+      }
     },
   },
   plugins: [],

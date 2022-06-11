@@ -24,3 +24,7 @@
 .project-skill{
   @apply px-2 py-1 bg-gray-300 bg-opacity-30 rounded-full font-semibold
 }
+
+.more-info{
+  @apply uppercase tracking-megawide text-sm font-medium pb-1 my-3 inline-block relative before:absolute before:block before:bottom-0 before:w-1/2 before:left-0 before:border-b before:border-secondary-100
+}
