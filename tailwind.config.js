@@ -17,7 +17,10 @@ module.exports = {
       },
       letterSpacing : {
         megawide: '.3em'
-      }
+      },
+      backgroundImage: {
+        'body-pattern': "url('../images/connections.svg')"
+      },
     },
   },
   plugins: [],
