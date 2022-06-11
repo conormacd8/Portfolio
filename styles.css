@@ -22,9 +22,9 @@
   @apply w-8 h-1 bg-secondary-200 block relative before:w-8 before:h-1 before:bg-secondary-200 before:left-0 before:right-0 before:top-2 before:absolute after:absolute after:w-8 after:h-1 after:bg-secondary-200 after:left-0 after:right-0 after:bottom-2 transition-transform
 }
 .project-skill{
-  @apply px-2 py-1 bg-gray-300 bg-opacity-30 rounded-full font-semibold
+  @apply px-2 py-1 bg-gray-300 bg-opacity-30 rounded-full font-semibold lg:text-sm
 }
 
 .more-info{
-  @apply uppercase tracking-megawide text-sm font-medium pb-1 my-3 inline-block relative hover:scale-105 before:absolute before:block before:bottom-0 before:w-1/2 before:left-0 before:border-b before:border-secondary-100 before:hover:w-full before:transition-all transition-all before:duration-300 duration-300
+  @apply uppercase tracking-megawide text-sm font-medium pb-1 my-3 inline-block relative hover:scale-105 before:absolute before:block before:bottom-0 before:w-1/2 before:left-0 before:border-b before:border-secondary-100 before:hover:w-full before:transition-all transition-all before:duration-300 duration-300 md:text-base lg:my-6
 }
