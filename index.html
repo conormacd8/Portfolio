@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -122,8 +122,8 @@
         >
           About <span class="text-secondary-100">me</span>
         </h2>
-        <div class="w-11/12 mx-auto 2xl:w-full mt-10">
-          <div class="p-6 bg-[#1e4d7a]">
+        <div class="w-11/12 mx-auto 2xl:w-full mt-10 sm:grid sm:grid-cols-12">
+          <div class="p-6 bg-[#1e4d7a] sm:col-span-8">
             <h3 class="text-lg sm:text-2xl font-semibold text-secondary-200">
               Who I am
             </h3>
@@ -147,7 +147,7 @@
             class="about-me-arrow hidden"
           >
           </lottie-player>
-          <div class="p-6 bg-[#1e4d7a] mt-6">
+          <div class="p-6 bg-[#1e4d7a] mt-6 sm:col-span-12">
             <h3 class="text-2xl font-semibold text-secondary-100">
               My love for the web 🌐
             </h3>
@@ -172,14 +172,22 @@
     <!-- Projects -->
     <div id="projects" class="container max-w-7xl mx-auto">
       <div class="w-11/12 mx-auto 2xl:w-full">
-        <h2 class="text-center">Projects</h2>
+        <h2
+          class="text-center text-6xl font-medium border-b border-blue-300 border-opacity-20 py-10 mt-20 mb-10 tracking-wider"
+        >
+          Projects
+        </h2>
         <div>
           <img
             src="./images/pexels-thgusstavo-santana-1813272.jpg"
             alt="Photo of Cuts4all store/site"
           />
           <div>
-            <p>Javascript, Tailwind, UI design</p>
+            <div class="flex text-xs items-center">
+              <p class="project-skill">Javascript</p>
+              <p class="project-skill">Tailwind</p>
+              <p class="project-skill">UI design</p>
+            </div>
             <h3>Hair Salon Freelancing Service</h3>
             <a href="#">MORE INFO</a>
           </div>
