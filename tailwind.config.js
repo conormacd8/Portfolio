@@ -19,7 +19,14 @@ module.exports = {
         megawide: '.3em'
       },
       backgroundImage: {
-        'body-pattern': "url('../images/connections.svg')"
+        'body-pattern': "url('../images/connections.svg')",
+        'js': 'url("../images/js_logo.svg")',
+        'html': 'url("../images/html.svg")',
+        'css': 'url("../images/css.svg")',
+        'react': 'url("../images/react.svg")',
+        'tailwind': 'url("../images/tailwind.svg")',
+        'figma': 'url("../images/figma.svg")',
+        'webpack': 'url("../images/webpack.svg")',
       },
     },
   },

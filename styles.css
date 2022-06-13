@@ -22,7 +22,7 @@
   @apply w-8 h-1 bg-secondary-200 block relative before:w-8 before:h-1 before:bg-secondary-200 before:left-0 before:right-0 before:top-2 before:absolute after:absolute after:w-8 after:h-1 after:bg-secondary-200 after:left-0 after:right-0 after:bottom-2 transition-transform
 }
 .project-skill{
-  @apply px-2 py-1 bg-gray-300 bg-opacity-30 rounded-full font-semibold lg:text-sm
+  @apply px-2 py-1 bg-gray-300 bg-opacity-30 rounded-full font-semibold lg:text-sm cursor-default relative after:absolute after:inline-block after:top-[120%] after:left-1/2 after:right-1/2 after:translate-x-1/2 after:-translate-x-1/2 after:w-11 after:h-11 after:md:h-14 after:md:w-14 after:bg-contain after:object-cover after:bg-no-repeat after:bg-center after:-translate-y-7 hover:after:translate-y-0 after:opacity-0 hover:after:opacity-75 after:transition-all after:duration-300
 }
 
 .more-info{
