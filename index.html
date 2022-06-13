@@ -184,20 +184,20 @@
           class="border-b border-blue-300 border-opacity-20 py-10 text-xl lg:text-3xl md:grid md:grid-cols-12 items-center md:py-20"
         >
           <img
-            src="./images/hair.png"
+            src="./images/hair.jpg"
             alt="Photo of Cuts4all store/site"
-            class="shadow-lg md:col-span-8 md:col-start-5 md:row-start-1"
+            class="shadow-lg md:col-span-7 w-full md:col-start-5 md:row-start-1 border-white border border-opacity-10 rounded-md"
           />
           <div class="md:col-start-2 md:col-span-6 md:row-start-1">
             <h3 class="font-semibold mt-10 tracking-wider capitalize">
               <span class="text-secondary-200 italic">Freelance Work</span> for
               a local hairdressing salon
             </h3>
-            <a href="#" class="more-info">more info</a>
+            <a href="#" class="more-info" id="hair-modal-switch">more info</a>
             <div class="flex text-xs items-center my-2 gap-1">
-              <p class="project-skill">Javascript</p>
-              <p class="project-skill">Tailwind</p>
-              <p class="project-skill">UI design</p>
+              <p class="project-skill after:bg-react">React</p>
+              <p class="project-skill after:bg-tailwind">Tailwind</p>
+              <p class="project-skill after:bg-figma">UI design</p>
             </div>
           </div>
         </div>
@@ -208,17 +208,19 @@
           <img
             src="./images/cjm.png"
             alt="screenshot of Conor MacDonald's portfolio site"
-            class="shadow-lg md:col-span-7 md:col-start-1 md:row-start-1"
+            class="shadow-lg md:col-span-7 md:col-start-1 md:row-start-1 w-full border-white border border-opacity-10 rounded-md"
           />
           <div class="md:col-start-9 md:col-span-4 md:row-start-1">
             <h3 class="font-semibold mt-10 tracking-wider">
               Personal Portfolio
             </h3>
-            <a href="#" class="more-info">MORE INFO</a>
+            <a href="#" class="more-info" id="portfolio-modal-switch"
+              >MORE INFO</a
+            >
             <div class="flex text-xs items-center my-2 gap-1">
-              <p class="project-skill">Javascript</p>
-              <p class="project-skill">Tailwind</p>
-              <p class="project-skill">UI design</p>
+              <p class="project-skill after:bg-js">Javascript</p>
+              <p class="project-skill after:bg-tailwind">Tailwind</p>
+              <p class="project-skill after:bg-figma">UI design</p>
             </div>
           </div>
         </div>
@@ -229,17 +231,17 @@
           <img
             src="./images/colors.png"
             alt="Screenshot of colors home page"
-            class="shadow-lg md:col-span-8 md:col-start-5 md:row-start-1"
+            class="shadow-lg md:col-span-7 w-full md:col-start-5 md:row-start-1 border-white border border-opacity-10 rounded-md"
           />
           <div class="md:col-start-2 md:col-span-6 md:row-start-1">
             <h3 class="font-semibold mt-10 tracking-wider">
               Color Scheme Generator
             </h3>
-            <a href="#" class="more-info">MORE INFO</a>
-            <div class="flex text-xs items-center my-2 gap-1">
-              <p class="project-skill">Javascript</p>
-              <p class="project-skill">Tailwind</p>
-              <p class="project-skill">UI design</p>
+            <a href="#" class="more-info" id="color-modal-switch">MORE INFO</a>
+            <div class="flex text-xs items-center my-2 gap-1 relative">
+              <p class="project-skill after:bg-js">Javascript</p>
+              <p class="project-skill after:bg-tailwind">Tailwind</p>
+              <p class="project-skill after:bg-figma">UI design</p>
             </div>
           </div>
         </div>
@@ -250,15 +252,15 @@
           <img
             src="./images/monkeytype.png"
             alt="Photo of Typing site home page"
-            class="shadow-lg md:col-span-7 md:col-start-1 md:row-start-1 w-full"
+            class="shadow-lg md:col-span-7 md:col-start-1 md:row-start-1 w-full border-white border border-opacity-10 rounded-md"
           />
           <div class="md:col-start-9 md:col-span-4 md:row-start-1">
             <h3 class="font-semibold mt-10 tracking-wider">Typing Practice</h3>
-            <a href="#" class="more-info">MORE INFO</a>
+            <a href="#" class="more-info" id="typing-modal-switch">MORE INFO</a>
             <div class="flex text-xs items-center my-2 gap-1">
-              <p class="project-skill">Javascript</p>
-              <p class="project-skill">Tailwind</p>
-              <p class="project-skill">UI design</p>
+              <p class="project-skill after:bg-html">HTML5</p>
+              <p class="project-skill after:bg-css">CSS3</p>
+              <p class="project-skill after:bg-js">UI design</p>
             </div>
           </div>
         </div>
@@ -270,11 +272,11 @@
         <h2 class="text-center">Skills</h2>
         <div class="w-11/12 mx-auto 2xl:w-full">
           <div class="card">
-            <img src="./images/w3_html5-icon.svg" alt="" />
+            <img src="./images/html.svg" alt="" />
             <p>HTML5</p>
           </div>
           <div class="card">
-            <img src="./images/w3_css-icon.svg" alt="" />
+            <img src="./images/css.svg" alt="" />
             <p>CSS3</p>
           </div>
           <div class="card">
@@ -282,27 +284,27 @@
             <p>Javascript</p>
           </div>
           <div class="card">
-            <img src="./images/reactjs-icon.svg" alt="" />
+            <img src="./images/react.svg" alt="" />
             <p>React</p>
           </div>
           <div class="card">
-            <img src="./images/tailwind-css-seeklogo.com.svg" alt="" />
+            <img src="./images/tailwind.svg" alt="" />
             <p>Tailwind</p>
           </div>
           <div class="card">
-            <img src="./images/git-scm-icon.svg" alt="" />
+            <img src="./images/git.svg" alt="" />
             <p>Git</p>
           </div>
           <div class="card">
-            <img src="./images/github-logo.svg" alt="" />
+            <img src="./images/github.svg" alt="" />
             <p>GitHub</p>
           </div>
           <div class="card">
-            <img src="./images/figma-logo.svg" alt="" />
+            <img src="./images/figma.svg" alt="" />
             <p>Figma</p>
           </div>
           <div class="card">
-            <img src="./images/js_webpack-icon.svg" alt="" />
+            <img src="./images/webpack.svg" alt="" />
             <p>Webpack</p>
           </div>
         </div>
