@@ -67,7 +67,11 @@
           <a href="https://github.com/conormacd8" class="" target="_blank">
             <i class="fa-brands fa-github"></i>
           </a>
-          <a href="www.linkedin.com/in/conormacd" class="" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/conormacd/"
+            class=""
+            target="_blank"
+          >
             <i class="fa-brands fa-linkedin"></i>
           </a>
         </div>
@@ -190,8 +194,12 @@
           />
           <div class="md:col-start-2 md:col-span-6 md:row-start-1">
             <div class="text-xs md:text-sm mt-5">
-              <a href="#" class="project-links">Github Repo </a>
-              <a href="#" class="project-links">Live Site</a>
+              <a href="https://github.com/conormacd8" class="project-links"
+                >Github Repo
+              </a>
+              <a href="https://cuts4all.com.au/" class="project-links"
+                >Live Site</a
+              >
             </div>
             <h3 class="font-semibold mt-5 lg:mt-10 tracking-wider capitalize">
               <span class="text-secondary-200 italic">Freelance Work</span> for
@@ -269,7 +277,9 @@
           />
           <div class="md:col-start-9 md:col-span-4 md:row-start-1">
             <div class="text-xs md:text-sm mt-5">
-              <a href="#" class="project-links">Github Repo </a>
+              <a href="https://github.com/conormacd8" class="project-links"
+                >Github Repo
+              </a>
               <a href="#" class="project-links">Live Site</a>
             </div>
             <h3 class="font-semibold mt-5 lg:mt-10 tracking-wider">
@@ -349,7 +359,9 @@
           />
           <div class="md:col-start-2 md:col-span-6 md:row-start-1">
             <div class="text-xs md:text-sm mt-5">
-              <a href="#" class="project-links">Github Repo </a>
+              <a href="https://github.com/conormacd8" class="project-links"
+                >Github Repo
+              </a>
               <a href="#" class="project-links">Live Site</a>
             </div>
             <h3 class="font-semibold mt-5 lg:mt-10 tracking-wider">
@@ -427,8 +439,14 @@
           />
           <div class="md:col-start-9 md:col-span-4 md:row-start-1">
             <div class="text-xs md:text-sm mt-5">
-              <a href="#" class="project-links">Github Repo </a>
-              <a href="#" class="project-links">Live Site</a>
+              <a href="https://github.com/conormacd8" class="project-links"
+                >Github Repo
+              </a>
+              <a
+                href="https://conormacd8.github.io/Portfolio/"
+                class="project-links"
+                >Live Site</a
+              >
             </div>
             <h3 class="font-semibold mt-5 lg:mt-10 tracking-wider">
               Typing Practice
@@ -561,34 +579,51 @@
     <!-- Contact  -->
     <div id="contact">
       <div class="container max-w-7xl mx-auto">
-        <h2 class="text-center">Contact me</h2>
+        <h2
+          class="text-center text-6xl font-medium border-b border-blue-300 border-opacity-20 py-10 tracking-wider"
+        >
+          Contact me!
+        </h2>
         <form
-          class="w-11/12 mx-auto 2xl:w-full"
+          class="w-8/12 mx-auto 2xl:w-full sm:grid grid-cols-2 gap-x-5 md:gap-x-10 gap-y-3 mt-10"
           id="contact-form"
           action="https://formsubmit.co/conormacd8@gmail.com"
           method="POST"
         >
           <input type="hidden" name="_captcha" value="false" />
-          <div class="full-name-container">
-            <label for="full-name">Full Name:</label>
+          <div class="full-name-container col-span-1 col-start-1">
+            <label for="full-name" class="block">Full Name:</label>
             <input
               name="full-name"
               type="text"
               id="full-name"
-              class="full-name"
+              class="full-name w-full bg-blue-600 bg-opacity-20 border border-white border-opacity-20"
             />
           </div>
-          <div class="email-container">
-            <label for="email">Email:</label>
-            <input name="email" type="email" id="email" class="email" />
+          <div class="email-container col-span-1 col-start-2">
+            <label for="email" class="block">Email:</label>
+            <input
+              name="email"
+              type="email"
+              id="email"
+              class="email w-full bg-blue-600 bg-opacity-20 border border-white border-opacity-20"
+            />
           </div>
-          <div class="message-container">
-            <label for="message">Send me a message!</label>
-            <textarea name="message" id="message" class="message"></textarea>
+          <div class="message-container col-start-1 col-span-full">
+            <label for="message" class="inline-block">Send me a message!</label>
+            <textarea
+              name="message"
+              id="message"
+              class="message w-full h-36 bg-blue-600 bg-opacity-20 border border-white border-opacity-20"
+            ></textarea>
           </div>
         </form>
-        <div class="submit-container">
-          <button type="submit" form="contact-form" class="w-full mx-auto">
+        <div class="submit-container flex justify-center mt-3 mb-10">
+          <button
+            type="submit"
+            form="contact-form"
+            class="mx-auto bg-secondary-100 text-secondary-300 font-bold py-2 px-4 rounded-lg"
+          >
             Submit
           </button>
         </div>
