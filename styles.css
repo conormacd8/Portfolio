@@ -30,7 +30,7 @@
 }
 
 .card{
-  @apply w-10 h-10 inline-block bg-gray-300 items-center
+  @apply w-40 h-40 inline-block items-center block text-xl lg:text-2xl font-bold mb-10
 }
 .project-links{
   @apply bg-[#1E4D7A] border border-secondary-200 p-1 rounded-sm mr-2
