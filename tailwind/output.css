@@ -826,6 +826,10 @@ video {
   gap: 0.25rem;
 }
 
+.gap-y-10{
+  row-gap: 2.5rem;
+}
+
 .overflow-hidden{
   overflow: hidden;
 }
@@ -840,6 +844,10 @@ video {
 
 .rounded-md{
   border-radius: 0.375rem;
+}
+
+.rounded-full{
+  border-radius: 9999px;
 }
 
 .border{
@@ -898,8 +906,17 @@ video {
   background-color: rgb(30 77 122 / var(--tw-bg-opacity));
 }
 
+.bg-gray-300{
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-50{
   --tw-bg-opacity: 0.5;
+}
+
+.bg-opacity-30{
+  --tw-bg-opacity: 0.3;
 }
 
 .bg-body-pattern{
@@ -1318,12 +1335,22 @@ video {
 }
 
 .card{
+  margin-bottom: 2.5rem;
+  display: block;
   display: inline-block;
-  height: 2.5rem;
-  width: 2.5rem;
+  height: 10rem;
+  width: 10rem;
   align-items: center;
-  --tw-bg-opacity: 1;
-  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+}
+
+@media (min-width: 1024px){
+  .card{
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
 }
 
 .project-links{
