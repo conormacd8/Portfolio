@@ -14,12 +14,6 @@
     <title>Conor MacDonald Portfolio</title>
   </head>
   <body class="text-blue-50 text-lg font-body bg-body-pattern">
-    <div class="hidden">
-      <div>
-        <span> Conor </span>
-        <span>&nbsp;MacDonald</span>
-      </div>
-    </div>
     <!-- Header / navigation -->
     <button
       aria-label="toggle navigation"
@@ -98,19 +92,6 @@
             I love building things on the web
           </p>
         </div>
-        <span>
-          <a href="#about-me">
-            <lottie-player
-              src="https://assets4.lottiefiles.com/packages/lf20_kyvmfawi.json"
-              background="transparent"
-              speed=".67"
-              style="width: 150px; height: 150px"
-              loop
-              autoplay
-              class="hidden sm:block absolute top-3/4 left-2/4 right-2/4 translate-x-1/2 -translate-x-1/2 m-0"
-            ></lottie-player>
-          </a>
-        </span>
         <img
           src="./images/hero-illustration.svg"
           alt=""
@@ -592,7 +573,9 @@
         >
           <input type="hidden" name="_captcha" value="false" />
           <div class="full-name-container col-span-1 col-start-1">
-            <label for="full-name" class="block">Full Name:</label>
+            <label for="full-name" class="block font-semibold"
+              >Full Name:</label
+            >
             <input
               name="full-name"
               type="text"
@@ -601,7 +584,7 @@
             />
           </div>
           <div class="email-container col-span-1 col-start-2">
-            <label for="email" class="block">Email:</label>
+            <label for="email" class="block font-semibold">Email:</label>
             <input
               name="email"
               type="email"
@@ -610,7 +593,9 @@
             />
           </div>
           <div class="message-container col-start-1 col-span-full">
-            <label for="message" class="inline-block">Send me a message!</label>
+            <label for="message" class="inline-block font-semibold"
+              >Send me a message!</label
+            >
             <textarea
               name="message"
               id="message"
