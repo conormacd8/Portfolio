@@ -28,6 +28,12 @@ module.exports = {
         'figma': 'url("../images/figma.svg")',
         'webpack': 'url("../images/webpack.svg")',
       },
+      gridTemplateColumns: {
+        'skills': 'repeat(auto-fill, minmax(175px, 1fr))',
+      },
+      minWidth:{
+        'modal': '320px'
+      }
     },
   },
   plugins: [],
