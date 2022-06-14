@@ -22,9 +22,21 @@
   @apply w-8 h-1 bg-secondary-200 block relative before:w-8 before:h-1 before:bg-secondary-200 before:left-0 before:right-0 before:top-2 before:absolute after:absolute after:w-8 after:h-1 after:bg-secondary-200 after:left-0 after:right-0 after:bottom-2 transition-transform
 }
 .project-skill{
-  @apply px-2 py-1 bg-gray-300 bg-opacity-30 rounded-full font-semibold lg:text-sm cursor-default relative after:absolute after:inline-block after:top-[120%] after:left-1/2 after:right-1/2 after:translate-x-1/2 after:-translate-x-1/2 after:w-11 after:h-11 after:md:h-14 after:md:w-14 after:bg-contain after:object-cover after:bg-no-repeat after:bg-center after:-translate-y-7 hover:after:translate-y-0 after:opacity-0 hover:after:opacity-75 after:transition-all after:duration-300
+  @apply px-2 py-1 bg-gray-300 bg-opacity-30 rounded-full font-semibold lg:text-sm cursor-default relative after:absolute after:inline-block after:top-[140%] after:left-1/2 after:right-1/2 after:translate-x-1/2 after:-translate-x-1/2 after:w-11 after:h-11 after:md:h-14 after:md:w-14 after:bg-contain after:object-cover after:bg-no-repeat after:bg-center after:-translate-y-7 hover:after:translate-y-0 after:opacity-0 hover:after:opacity-75 after:transition-all after:duration-300
 }
 
 .more-info{
-  @apply uppercase tracking-megawide text-sm font-medium pb-1 my-3 inline-block relative hover:scale-105 before:absolute before:block before:bottom-0 before:w-1/2 before:left-0 before:border-b before:border-secondary-100 before:hover:w-full before:transition-all transition-all before:duration-300 duration-300 md:text-base lg:my-6
+  @apply uppercase tracking-megawide text-sm font-medium py-1 my-3 inline-block relative hover:scale-105 before:absolute before:block before:bottom-0 before:w-1/2 before:left-0 before:border-b before:border-secondary-100 before:hover:w-full before:transition-all transition-all before:duration-300 duration-300 md:text-base lg:my-6
+}
+
+.card{
+  @apply w-10 h-10 inline-block bg-gray-300 items-center
+}
+.project-links{
+  @apply bg-[#1E4D7A] border border-secondary-200 p-1 rounded-sm mr-2
+  border-opacity-50
+}
+
+.close-modal-btn{
+  @apply absolute top-10 lg:right-10 right-5 w-14 h-2 rotate-45 bg-secondary-200 after:top-1/2 after:bottom-1/2 after:translate-y-1/2 after:-translate-y-1/2 after:right-0 after:w-14 after:h-2 after:rotate-90 after:bg-secondary-200 after:absolute
 }

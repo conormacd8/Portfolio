@@ -3,10 +3,46 @@ const navLinks = document.querySelectorAll('.nav-link')
 const intro = document.querySelector('.intro')
 const logo = document.querySelector('.logo-header')
 const logoSpan = document.querySelectorAll('.logo')
+const typingModalBtn = document.querySelector('#typing-modal-switch')
+const hairModalBtn = document.querySelector('#hair-modal-switch')
+const portfolioModalBtn = document.querySelector('#portfolio-modal-switch')
+const colorModalBtn = document.querySelector('#color-modal-switch')
+const typingModal = document.querySelector('#typing-modal')
+const hairModal = document.querySelector('#hair-modal')
+const portfolioModal = document.querySelector('#portfolio-modal')
+const colorModal = document.querySelector('#color-modal')
+const closeModal = document.querySelectorAll('.close-modal-btn')
+const allModals = document.querySelectorAll('.modal')
+
+typingModalBtn.addEventListener('click', function(){
+  typingModal.classList.remove('hidden')
+  navToggle.classList.add('hidden')
+})
+hairModalBtn.addEventListener('click', function(){
+  hairModal.classList.remove('hidden')
+  navToggle.classList.add('hidden')
+})
+portfolioModalBtn.addEventListener('click', function(){
+  portfolioModal.classList.remove('hidden')
+  navToggle.classList.add('hidden')
+})
+colorModalBtn.addEventListener('click', function(){
+  colorModal.classList.remove('hidden')
+  navToggle.classList.add('hidden')
+})
 
 navToggle.addEventListener('click', function(){
 	document.body.classList.toggle('nav-open')
 })
+closeModal.forEach(closeModal => {
+  closeModal.addEventListener('click',function(){
+    allModals.forEach(modal => {
+    modal.classList.add('hidden')
+  })
+  navToggle.classList.remove('hidden')
+  })
+})
+
 
 navLinks.forEach(link => {
     link.addEventListener('click', () => {
