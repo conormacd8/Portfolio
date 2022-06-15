@@ -35,7 +35,7 @@ module.exports = {
         'modal': '320px'
       },
       screens: {
-      'tall': { 'raw': '(max-height: 500px) and (max-width:750px)'}
+      'tall': { 'raw': '(max-height: 575.98px) and (orientation: landscape)'}
 
     },
     },
