@@ -33,7 +33,11 @@ module.exports = {
       },
       minWidth:{
         'modal': '320px'
-      }
+      },
+      screens: {
+      'tall': { 'raw': '(max-height: 500px) and (max-width:750px)'}
+
+    },
     },
   },
   plugins: [],
