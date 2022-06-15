@@ -14,6 +14,7 @@ const colorModal = document.querySelector('#color-modal')
 const closeModal = document.querySelectorAll('.close-modal-btn')
 const allModals = document.querySelectorAll('.modal')
 
+// open modal on 'more info' click
 typingModalBtn.addEventListener('click', function(){
   typingModal.classList.remove('hidden')
   navToggle.classList.add('hidden')
@@ -31,9 +32,9 @@ colorModalBtn.addEventListener('click', function(){
   navToggle.classList.add('hidden')
 })
 
-navToggle.addEventListener('click', function(){
-	document.body.classList.toggle('nav-open')
-})
+
+
+// on click, hide all modals
 closeModal.forEach(closeModal => {
   closeModal.addEventListener('click',function(){
     allModals.forEach(modal => {
@@ -42,6 +43,7 @@ closeModal.forEach(closeModal => {
   navToggle.classList.remove('hidden')
   })
 })
+
 // Listen for outside click
 window.addEventListener('click', clickOutside)
 
@@ -71,11 +73,15 @@ function closeFocus(e){
   }
 }
 
-
+// Open and close navigation
 navLinks.forEach(link => {
     link.addEventListener('click', () => {
         document.body.classList.remove('nav-open');
     })
+})
+
+navToggle.addEventListener('click', function(){
+	document.body.classList.toggle('nav-open')
 })
 
 function myFunction(x) {
