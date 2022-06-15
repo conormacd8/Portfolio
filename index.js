@@ -42,6 +42,34 @@ closeModal.forEach(closeModal => {
   navToggle.classList.remove('hidden')
   })
 })
+// Listen for outside click
+window.addEventListener('click', clickOutside)
+
+// Function to close modal if outside click
+function clickOutside(e){
+  allModals.forEach(modal => {
+    if (!modal.classList.contains('hidden')){
+      if (e.target == modal){
+        modal.classList.add('hidden')
+      }
+    }
+  })
+}
+// Listen for tab on focus
+window.addEventListener('keydown', closeFocus)
+
+// Function to check if we are in modal and tab key is being used 
+function closeFocus(e){
+  if (e.key === "Tab" || e.keyCode === 9){
+    closeModal.forEach(closeModal => {
+      if(document.activeElement === closeModal){
+      closeModal.focus()
+      e.preventDefault()
+    }
+    })
+    
+  }
+}
 
 
 navLinks.forEach(link => {
@@ -61,37 +89,3 @@ function myFunction(x) {
 var x = window.matchMedia("(max-width: 750px)")
 myFunction(x) // Call listener function at run time
 x.addListener(myFunction) // Attach listener function on state changes
-
-window.addEventListener('DOMContentLoaded', ()=> {
-  setTimeout(() => {
-    logoSpan.forEach((span, idx) => {
-      setTimeout(()=> {
-        span.classList.add('active')
-      }, (idx + 1) * 400)
-    })
-    
-    setTimeout(()=> {
-      logoSpan.forEach((span,idx)=> {
-        setTimeout(()=>{
-          span.classList.remove('active')
-          span.classList.add('fade')
-
-        }, (idx + 1) * 50)
-      })
-    },2000)
-
-    setTimeout(()=>{
-      intro.style.top = "-100vh"
-    },2300)
-
-
-  });
-})
-
-
-
-
-
-
-
-
