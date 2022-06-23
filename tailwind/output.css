@@ -763,10 +763,6 @@ video {
   width: 91.666667%;
 }
 
-.w-2\/3{
-  width: 66.666667%;
-}
-
 .w-2\/5{
   width: 40%;
 }
@@ -975,6 +971,11 @@ video {
 .bg-blue-600{
   --tw-bg-opacity: 1;
   background-color: rgb(37 99 235 / var(--tw-bg-opacity));
+}
+
+.bg-green-200{
+  --tw-bg-opacity: 1;
+  background-color: rgb(187 247 208 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-50{
@@ -1512,6 +1513,39 @@ video {
   background-image: url("../images/js_logo.svg");
 }
 
+.last\:border-b:last-child{
+  border-bottom-width: 1px;
+}
+
+.last\:border-none:last-child{
+  border-style: none;
+}
+
+.last\:border-red-400:last-child{
+  --tw-border-opacity: 1;
+  border-color: rgb(248 113 113 / var(--tw-border-opacity));
+}
+
+.last\:border-opacity-0:last-child{
+  --tw-border-opacity: 0;
+}
+
+.last\:bg-green-200:last-child{
+  --tw-bg-opacity: 1;
+  background-color: rgb(187 247 208 / var(--tw-bg-opacity));
+}
+
+.hover\:scale-105:hover{
+  --tw-scale-x: 1.05;
+  --tw-scale-y: 1.05;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.hover\:text-gray-400:hover{
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;
@@ -1639,19 +1673,9 @@ video {
     line-height: 2rem;
   }
 
-  .sm\:text-7xl{
-    font-size: 4.5rem;
-    line-height: 1;
-  }
-
   .sm\:text-lg{
     font-size: 1.125rem;
     line-height: 1.75rem;
-  }
-
-  .sm\:text-8xl{
-    font-size: 6rem;
-    line-height: 1;
   }
 
   .sm\:font-normal{
@@ -1723,6 +1747,11 @@ video {
     line-height: 1.75rem;
   }
 
+  .md\:text-8xl{
+    font-size: 6rem;
+    line-height: 1;
+  }
+
   .md\:text-sm{
     font-size: 0.875rem;
     line-height: 1.25rem;
@@ -1731,11 +1760,6 @@ video {
   .md\:text-2xl{
     font-size: 1.5rem;
     line-height: 2rem;
-  }
-
-  .md\:text-8xl{
-    font-size: 6rem;
-    line-height: 1;
   }
 }
 
@@ -1768,16 +1792,6 @@ video {
 @media (max-height: 575.98px) and (orientation: landscape){
   .tall\:h-5\/6{
     height: 83.333333%;
-  }
-
-  .tall\:text-2xl{
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-
-  .tall\:text-5xl{
-    font-size: 3rem;
-    line-height: 1;
   }
 
   .tall\:text-6xl{
