@@ -695,11 +695,6 @@ video {
   margin-bottom: 0.5rem;
 }
 
-.my-5{
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
-}
-
 .mt-10{
   margin-top: 2.5rem;
 }
@@ -712,24 +707,16 @@ video {
   margin-top: 1.25rem;
 }
 
+.mb-1{
+  margin-bottom: 0.25rem;
+}
+
 .mt-3{
   margin-top: 0.75rem;
 }
 
 .mb-10{
   margin-bottom: 2.5rem;
-}
-
-.mt-7{
-  margin-top: 1.75rem;
-}
-
-.mb-2{
-  margin-bottom: 0.5rem;
-}
-
-.mb-1{
-  margin-bottom: 0.25rem;
 }
 
 .block{
@@ -1707,6 +1694,10 @@ video {
 
   .md\:row-start-1{
     grid-row-start: 1;
+  }
+
+  .md\:block{
+    display: block;
   }
 
   .md\:grid{
